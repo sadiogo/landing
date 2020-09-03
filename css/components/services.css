@@ -1,0 +1,38 @@
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin:-10px;
+  width: 100%;
+}
+
+.services > * {
+  flex: 0 0 40%;
+  margin: 10px;
+}
+
+.service-card {
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0,0, 0.3);
+  margin: 25px 0;
+  font-size: 0.95vw;
+  color: rgb(30, 30, 30);
+  background-color: white;
+}
+
+.service-card img {
+  width: 80%;
+  height: 60%;
+  object-fit: contain;
+  margin-top: 25px;
+}
+
+.service-info {
+  margin: 0 auto;
+  width: 80%;
+  height: 60%;
+}
+
+.service-info h3 {
+  color: brown;
+}

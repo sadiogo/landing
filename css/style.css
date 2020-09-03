@@ -1,0 +1,55 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/banners.css');
+@import url('components/services.css');
+@import url('components/buttons.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: whitesmoke;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+i {
+  font-size: 30px;
+  color: sandybrown;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}

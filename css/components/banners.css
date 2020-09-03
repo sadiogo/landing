@@ -1,0 +1,31 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://source.unsplash.com/random/1200x600?laboratory");
+  color: white;
+  font-family: Sarabun, Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 8px black;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.banner a {
+  font-family: "Roboto Condensed", "Open Sans", sans-serif;
+}
+
+.banner h2 {
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 0;
+  color: sandybrown;
+}
+
+.banner p {
+  margin: 20px 0 0 0;
+  font-size: 26px;
+  font-weight: lighter;
+}
